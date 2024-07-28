@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Practice: feedback form</title>
+    <link rel="stylesheet" href="./css/feedback.css" />
+  </head>
+  <body>
+<!--    <p><a href="index.html">Go back</a></p>-->
+    <load ="./partials/header.html" />
+    <div class="container">
+      <form class="feedback-form js-feedback-form">
+        <input
+          name="email"
+          type="email"
+          class="feedback-form-input js-feedback-email"
+          placeholder="Введіть email"
+        />
+        <textarea
+          name="message"
+          class="feedback-form-message"
+          placeholder="Введіть повідомлення"
+        ></textarea>
+        <button class="feedback-form-submit">Відправити</button>
+      </form>
+    </div>
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </body>
+</html>
